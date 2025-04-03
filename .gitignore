@@ -1,0 +1,6 @@
+#The build directory
+out/
+#In case someone is unfortunate enough to work with Visual Studio
+.vs/
+#Don't commit your cache
+.cache/
