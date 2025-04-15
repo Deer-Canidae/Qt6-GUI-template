@@ -1,5 +1,14 @@
 {
   "CompileFlags": {
     "CompilationDatabase": "./out/"
+  },
+  "Diagnostics": {
+    "ClangTidy": {
+      "Add": [
+        "bugprone-*",
+        "cert-*",
+        "cppcoreguidelines-*"
+      ]
+    }
   }
 }
