@@ -4,12 +4,19 @@ This repo aims to create a template upon which to build a GUI App with Qt6
 
 First setup with CMake can be daunting (it was for me at least) so this helps you get started with it pain free!
 
+## Requirements
+
+- CMake >= 3.16
+- Qt6
+- C++17 compatible compiler
+- Python >= 3.13 (if you use the  build script)
+
 ## Build
 
-Execute the provided `build.sh` script (on Linux/MacOS/POSIX only) in the project's root directory
+Execute the provided `build.py` script (requires Python >= 3.13)
 
 ```sh
-./build.sh
+./build.py
 ```
 
 You can also run CMake by yourself (look at the script for examples)
